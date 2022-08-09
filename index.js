@@ -1,3 +1,6 @@
 import GetData from "./app.js";
-const result = await GetData(2);
-console.log(result);
+import { circleArea, circleCircumference } from "./circle.js";
+// const result = await GetData(2);
+// console.log(result);
+circleArea(5);
+circleCircumference(5);
